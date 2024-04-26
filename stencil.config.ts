@@ -2,6 +2,7 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'watch-ignore-test',
+  watchIgnoredRegex: [/.*\.stories\.ts$/],
   outputTargets: [
     {
       type: 'dist',
